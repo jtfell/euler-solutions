@@ -14,3 +14,13 @@ def sumOfDivisors(n):
 		if n % i == 0:
 			count += i
 	return count
+
+def separateDigits(n):
+    digits = []
+    value = n
+
+    while value > 0:
+        digits.append(value % 10)
+        value = value / 10
+
+    return digits
