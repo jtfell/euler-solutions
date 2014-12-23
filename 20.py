@@ -1,8 +1,4 @@
-def fact(n):
-	if n == 1:
-		return 1
-	else:
-		return n * fact(n-1)
+from common import *
 
 value = str(fact(100))
 count = 0
